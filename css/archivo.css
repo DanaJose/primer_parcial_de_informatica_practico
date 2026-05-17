@@ -1,0 +1,147 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3;
+    padding: 3rem;
+    background: rgb(189, 46, 46);
+    font-family: 'Barlow', sans-serif; 
+    background-image: url("../img/fondo.png");
+    background-position: center;
+    line-height: 1.8;
+    color: rgb(62, 81, 194); 
+}
+
+nav {
+    background-color: #18a6e7;
+	text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 3;
+    list-style-type: none;
+	
+    
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 1.4em;
+    line-height: 2.2em;
+    padding: 0.4em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:link {
+    background-color: #000508;
+    color: #526bbe;
+}
+
+nav a:visited {
+    background-color: #000508;
+    color: #526bbe;
+}
+
+nav a:hover {
+    background-color: #526bbe;
+    color: #FFF;
+}
+
+nav a:active {
+    background-color: #F00;
+    color: #FFF;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background: rgb(40, 11, 121);
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+    background: rgb(165, 215, 238);
+}
+
+/* ── IMÁGENES ─────────────────────────────────────────────── */
+
+img {
+    /* 🆕 Centra cada imagen como bloque */
+    display: block;
+    margin: 1rem auto;
+    /* 🆕 Evita desbordamiento en pantallas pequeñas */
+    max-width: 100%;
+    height: auto;
+}	
+	
+	.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* por si la pantalla es chica, se acomodan en columna */
+
+	}
+/* Necesario para que el margin: auto del img general no las separe */
+.galeria img {
+    margin: 0;
+}
+
+
+/* ── VIDEOS (iframe) ──────────────────────────────────────── */
+
+iframe {
+    /* 🆕 Centra el iframe como bloque */
+    display: block;
+    margin: 1rem auto;
+    /* 🆕 Responsive: no se desborda en pantallas pequeñas */
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'barlow', sans-serif; 
+    text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+h2 {
+    font-weight: 700;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+li {
+    line-height: 1.8em;
+}
+
+a:link {
+    color: rgb(193, 236, 93);
+}
+
+a:visited {
+    color: rgb(193, 236, 93);
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
