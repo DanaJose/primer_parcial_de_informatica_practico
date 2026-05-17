@@ -5,14 +5,17 @@
 }
 
 body {
-    margin: 3px;
-    padding: 3rem;
-    background: #18a6e7;
+    margin: 4px;
+    padding: 2rem;
+    background: #1BA0F2;
     font-family: 'Barlow', sans-serif; 
     background-image: url("../img/fondo.png");
     background-position: center;
     line-height: 1.8;
-    color: rgb(62, 81, 194);
+    color: #467C9D;
+    background-color: rgba(0.3);
+    background-blend-mode: multiply;
+    font-size: 1.3rem;
 }
 
 .centrado {
@@ -64,21 +67,19 @@ nav a:active {
     color: #FFF;
 }
 
-#contenedor {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-}
 
 header, footer {
-    background: rgb(40, 11, 121);
-    padding: 1em;
+    background: #1B5CF2;
+    padding: 2rem;
     text-align: center;
+    margin: auto;
 }
 
 main {
     padding: 2em;
     background: rgb(165, 215, 238);
+    margin: auto;
+    border-style:dotted ;
 }
 
 /* ── IMÁGENES ─────────────────────────────────────────────── */
@@ -115,14 +116,18 @@ iframe {
     max-width: 100%;
 }
 
+/* ── TITULOS ──────────────────────────────────────── */
+
 h1 {
     font-family: 'barlow', sans-serif; 
     text-transform: uppercase;
 	text-align: center;
 	font-weight: bold;
+    font-size: 3rem;
 	
 }
 
+ 
 h2 {
     font-weight: 900;
 	text-align: center;
@@ -130,6 +135,7 @@ h2 {
     padding: 0.5rem 1.5rem;
     border-left: 4px solid var(--cian);
 	color: red;
+    font-size: 2rem;
 
 }
 
@@ -138,6 +144,7 @@ h3 {
     font-weight: 700;
 	text-align: center;
 	font-weight: bold;
+    font-size: 1.5rem;
 	
 }
 
@@ -173,7 +180,7 @@ a:active {
 	font-weight: bold;
     padding: 0.5rem 1.5rem;
     border-left: 4px solid var(--cian);
-	color: azure;
+	color: #F2B21B;
 }
 
 .cubito {
@@ -190,4 +197,8 @@ a:active {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.ocre {
+    color:#F2B21B
 }
